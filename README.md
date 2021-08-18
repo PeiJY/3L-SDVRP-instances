@@ -1,9 +1,14 @@
 # 3L-SDVRP-instances
+## instances 
 The adapted instances (wSD-CSS and wShanghai) for our 3L-SDVRP definition and part of HUAWEI competition benchmark instances which owns warehouse.
 
 * wSD-CSS instances are adapted from SD-CSS instances [1]
 * wShanghai instances are adapted from Shanghai instances [2]
 * competition instances are all instances from competition benchmark that owns warehouse[3]
+
+
+## format
+All instances are in json format. In 'platformCode', a platform (pickup point) has 'mustFirst==1' means it is a warehouse. The 'maxLoad' of a vehicle type is tis weight capacity. 
 
 
 ---
